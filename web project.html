@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nihon Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #ff0000;
+            color: yellow;
+            padding: 15px 20px;
+            display: flex;
+            justify-left side;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .btn {
+            background: #28a745;
+            color: yellow;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            background: #f4f4f4;
+        }
+        .hero-text {
+            max-width: 500px;
+        }
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .culture-showcase {
+            text-align: center;
+            padding: 50px;
+        }
+        .culture-cards {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+        .culture-cards img{
+           max-width:150%;
+           height:auto;
+        }
+        .card {
+            background:yellow;
+            padding: 20px;
+            width: 200px;
+            cursor: pointer;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function navigateTo(page) {
+            window.location.href = a href="web.html";
+            window.location.href = a href="food1.html";
+            window.location.href = a href="japan topography.html";
+            window.location.href = a href="clothes.html";
+            window.location.href = a href="japan house.html";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">cultute</div>
+            <ul>
+                <li><a href="web.html">Start</a></li>
+                <li><a href="food1.html">food1</a></li>
+                <li><a href="japan topography.html">japan topography</a></li>
+                <li><a href="clothes.html">clothes</a></li>
+                <li><a href="japan house.html">japan house</a></li>
+                >
+            </ul>
+            <button class="btn" onclick="navigateTo('home.html')">Start free trial</button>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Culture is the shared set of beliefs, values, customs, practices, and social behaviors that characterize a group of people or society.</h1>
+            <input type="email" placeholder="Enter your email address">
+            <button class="btn" onclick="navigateTo('home.html')">Start free trial</button>
+        </div>
+        <div class="hero-image">
+            <img src="C:\Users\Admin\culture day.jpg" alt="culture day.jpg">
+        </div>
+    </section>
+    
+    <section class="culture-showcase">
+        <h2> japan culture</h2>
+        <p>Japanese culture is rich, diverse, and deeply rooted in tradition while also embracing modern influences</p>
+        <div class="culture-cards">
+            <div class="card" onclick="navigateTo('food1.html')">FOOD </div>
+            <div class="card" onclick="navigateTo('japan topography.html')"> japan topography - watch the season</div>
+            <div class="card" onclick="navigateTo(' clothes.html')">clothes </div>
+            <div class="card" onclick="navigateTo('japan house.html')"> japan house- visit a home</div>
+      
+        </div>
+    </section>
+</body>
+</html>
+
